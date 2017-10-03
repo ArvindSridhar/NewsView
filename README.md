@@ -1,2 +1,2 @@
 # NewsView
-Placing the latest news items on an interactive map, helping you visualize current events
+Putting the latest news on a map, based on where the news occurs. A new way to visualize current events!

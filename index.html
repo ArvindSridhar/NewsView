@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <LINK REL="SHORTCUT ICON" HREF="NewsView_Icon.png">
+    <title>NewsView</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/launch.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <style>
+        body.partTwo {
+            background-color: blue;
+        }
+    </style>
+</head>
+    
+<body class="homepage">
+    <div class="landingImg"><img src="banner.png" /></div>
+    <section id="landing">
+        <h2>NEWSVIEW 2.0</h2>
+    </section>
+    <div class="infoBlock">
+        <div class="infoLeft">
+        <h1 class="spaceAboveFirst">Visualize What's Happening in the World Around You</h1>
+        <h1 class="spaceAbove">New in Version 2.0: Colorful 3D-Enabled Map, Robust News Collection, Beautiful User Interface</h1>
+        </div>
+        <div class="infoRight" onclick=openiOS() style="cursor:pointer !important;">
+        <h1><b>available on</b> web, iOS, and Android</h1>
+        </div>
+    </div>
+    <div class="infoBlock2">
+        <a href="app.html">Enter NewsView</a>
+    </div>
+    <div class="infoBlock3">
+        <p>Version 2.0 &copy; 2016 Geography for Tomorrow Inc. All Rights Reserved.</p>
+    </div>
+    <script type="text/javascript">
+    $( document ).ready(function() {
+        $("#landing").fadeIn(1500);
+    });
+    function openiOS() {
+        window.open("https://itunes.apple.com/us/app/newsview-pro/id1185163384?ls=1&mt=8");
+    }
+    </script>
+</body>
+    
+</html>
