@@ -773,7 +773,7 @@ for ($i=0;$i<$resultsnumNYT;$i++) {
     $abstract = $resultsNYT[$i]['abstract'];
     $url = $resultsNYT[$i]['url'];
     $url = "https://www.google.com/search?q=%".$url."&btnI=Im+Feeling+Lucky";
-    $url = "https://www.geofortomorrow.org/newsview/test3.html";
+    $url = "https://www.geofortomorrow.org/newsview/article2.php";
     //$date = $resultsNYT[$i]['published_date'];
     $date = date('Y-d-m', $resultsNYT[$i]['published_date']);
     $geoFacet = $resultsNYT[$i]['geo_facet'];
